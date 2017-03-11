@@ -20,10 +20,13 @@ function carnie_external_links_override() {
 				<img src="<?php bloginfo('template_directory'); ?>/images/face_book.png" />
 				</a></li>
 			<li><a href="http://openairorchestra.blogspot.com/search/label/video">
-				<img src="<?php bloginfo('template_directory'); ?>/images/you_tube.png" />
+				<img src="<?php bloginfo('template_directory'); ?>/images/you_tube_2.png" />
 				</a></li>
 			<li><a href="http://openairorchestra.blogspot.com/">
-				<img src="<?php bloginfo('template_directory'); ?>/images/blogger.png" />
+				<img src="<?php bloginfo('template_directory'); ?>/images/blogger_2.png" />
+</a></li>
+			<li><a href="https://twitter.com/TheCarnivalBand">
+				<img src="<?php bloginfo('template_directory'); ?>/images/twitter.png" />
 </a></li>
 		</ul>
 	</div>
