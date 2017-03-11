@@ -45,9 +45,9 @@ function carnie_external_links() {
 				<img src="<?php bloginfo('template_directory'); ?>/images/blogger_2.png" />
 				</a></li>
 			<li>
-<a href="https://twitter.com/TheCarnivalBand">
+			<li><a href="https://twitter.com/TheCarnivalBand">
 				<img src="<?php bloginfo('template_directory'); ?>/images/twitter.png" />
-</a></li>
+			</a></li>
 		</ul>
 	</div>
 
