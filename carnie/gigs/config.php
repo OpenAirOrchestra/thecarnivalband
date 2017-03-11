@@ -1,6 +1,6 @@
 <?php
 # what is your Mysql database server
-$database_host = "mysql1036.blacksun.ca";
+$database_host = "mysql1173.blacksun.ca";
 
 # what is the name of the database we are using
 $database_name = "aandrien_carnivalbandmembers";
