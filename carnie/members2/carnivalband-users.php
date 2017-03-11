@@ -33,16 +33,17 @@ function carnivalband_users() {
 		display_user();	
 	else
 		display_user_list();
+
 }
 
 function display_user_list() {  
 	// by default we show first page
 	$pageNum = 1;
 
-	// if $_GET['page'] defined, use it as page number
-	if(isset($_GET['page']))
+	// if $_GET['pg'] defined, use it as page number
+	if(isset($_GET['pg']))
 		{
-	    	$pageNum = $_GET['page'];
+	    	$pageNum = $_GET['pg'];
 		}
 	$usersPerPage = 15;
 	
@@ -51,11 +52,24 @@ function display_user_list() {
 	
 	// Get the users from the database ordered by user nicename
 	global $wpdb;
-	$query = "SELECT ID, user_nicename FROM wordpress_cbm.wp_users ORDER BY user_nicename LIMIT $offset, $usersPerPage";
-	$author_ids = $wpdb->get_results($query);
+	// $query = "SELECT ID, user_nicename FROM aandrien_carnivalbandmembers.wp_users ORDER BY user_nicename LIMIT $offset, $usersPerPage";
 	
-        
-    $output = '';
+	// Get the users from the database ordered by user nicename,
+	// with capabilities not set to be role none.
+	$query = "
+	SELECT aandrien_carnivalbandmembers.wp_users.ID, aandrien_carnivalbandmembers.wp_users.user_nicename, 	
+	       aandrien_carnivalbandmembers.wp_usermeta.meta_value
+	FROM aandrien_carnivalbandmembers.wp_users 
+		INNER JOIN aandrien_carnivalbandmembers.wp_usermeta
+		ON (aandrien_carnivalbandmembers.wp_users.ID = aandrien_carnivalbandmembers.wp_usermeta.user_id)
+	WHERE aandrien_carnivalbandmembers.wp_usermeta.meta_key = 'wp_capabilities' AND
+     	      aandrien_carnivalbandmembers.wp_usermeta.meta_value NOT LIKE 'a:0:%'
+	ORDER BY aandrien_carnivalbandmembers.wp_users.user_nicename
+	LIMIT $offset, $usersPerPage";
+
+	$author_ids = $wpdb->get_results($query);
+
+    	$output = '';
 
 	// Loop through each author
 	foreach($author_ids as $author) {
@@ -69,7 +83,7 @@ function display_user_list() {
 	echo $output;
 
 	// how many rows we have in database
-	$user_count = $wpdb->get_var("SELECT COUNT(ID) FROM wordpress_cbm.wp_users");
+	$user_count = $wpdb->get_var("SELECT COUNT(ID) FROM aandrien_carnivalbandmembers.wp_users");
 
 	// how many pages we have when using paging?
 	$maxPage = ceil($user_count/$usersPerPage);
@@ -84,13 +98,13 @@ function display_user_list() {
 	if ($pageNum > 1)
 	{
 	   	$page  = $pageNum - 1;
-	   	echo "&nbsp;[ <a href=\"", the_permalink(), $concat, "page=$page\">&laquo; Prev</a> ]&nbsp;";
+	   	echo "&nbsp;[ <a href=\"", the_permalink(), $concat, "pg=$page\">&laquo; Prev</a> ]&nbsp;";
 	}
 	
 	for($i = 1; $i <= $maxPage; $i++)
 	{	
 		if($i != $pageNum)
-			echo "&nbsp;[ <a href=\"", the_permalink(), $concat, "page=", $i, "\">$i</a> ]&nbsp;";
+			echo "&nbsp;[ <a href=\"", the_permalink(), $concat, "pg=", $i, "\">$i</a> ]&nbsp;";
 		else
 			echo "&nbsp;[ ", $i, " ]&nbsp;";
 	}
@@ -98,7 +112,7 @@ function display_user_list() {
 	if ($pageNum < $maxPage)
 	{
    		$page = $pageNum + 1;
-   		echo "&nbsp;[ <a href=\"", the_permalink(), $concat, "page=$page\">Next &raquo;</a> ]&nbsp;";
+   		echo "&nbsp;[ <a href=\"", the_permalink(), $concat, "pg=$page\">Next &raquo;</a> ]&nbsp;";
 	}
 	
 	echo "</p>\n";
@@ -133,10 +147,10 @@ function get_carnie_userdata($user_id) {
 	if ( $user_id <= 1 )
 		return false;
 	
-	if ( !$user = $wpdb->get_row($wpdb->prepare("SELECT * FROM wordpress_cbm.wp_users WHERE ID = %d LIMIT 1", $user_id)) )
+	if ( !$user = $wpdb->get_row($wpdb->prepare("SELECT * FROM aandrien_carnivalbandmembers.wp_users WHERE ID = %d LIMIT 1", $user_id)) )
 		return false;
 
-	$metavalues = $wpdb->get_results($wpdb->prepare("SELECT meta_key, meta_value FROM wordpress_cbm.wp_usermeta WHERE user_id = %d", $user->ID));
+	$metavalues = $wpdb->get_results($wpdb->prepare("SELECT meta_key, meta_value FROM aandrien_carnivalbandmembers.wp_usermeta WHERE user_id = %d", $user->ID));
 
 	if ( $metavalues ) {
 		foreach ( (array) $metavalues as $meta ) {
