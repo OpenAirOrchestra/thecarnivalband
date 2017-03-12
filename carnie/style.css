@@ -272,16 +272,17 @@ ul.post-meta span.post-meta-key {
 }
 
 #external_links li {
-	padding-left:8px;
-	padding-right:8px;
+	padding-left:6px;
+	padding-right:6px;
 }
 
 #external_links li.big_link {
-	padding-right:40px;
+	padding-right:8px;
 }
 
 .big_link img {
-	width:115px;
+	max-width:115px;
+	max-height:50px;
 }
 
 

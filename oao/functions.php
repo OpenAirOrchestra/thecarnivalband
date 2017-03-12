@@ -13,6 +13,8 @@ function carnie_external_links_override() {
 			<li class="big_link">
 				<a href="http://www.thecarnivalband.com"><img src="<?php bloginfo('template_directory'); ?>/images/carnival_band_logo.png" /></a>
 			</li>
+			<li class="big_link">
+				<a href="http://greenhorn.openairorchestra.com/greenhorn/about/about-the-greenhorn-community-music-project/"><img src="<?php bloginfo('template_directory'); ?>/images/greenhorn_project_logo.png" /></a>
 			<li><a href="http://www.flickr.com/groups/614167@N22/">
 				<img src="<?php bloginfo('template_directory'); ?>/images/flickr.png" />
 				</a></li>
