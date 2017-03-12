@@ -2,7 +2,7 @@
 Theme Name: Carnival Band Red Designer
 Theme URI: http://www.thecarnivalband.com
 Description: Theme for the Carnival Band website designed by Red Designer Studio.
-Version: 0.6
+Version: 0.5
 Author: Darryl Fuller
 Tags: variable height, two columns
 
@@ -272,16 +272,17 @@ ul.post-meta span.post-meta-key {
 }
 
 #external_links li {
-	padding-left:8px;
-	padding-right:8px;
+	padding-left:6px;
+	padding-right:6px;
 }
 
 #external_links li.big_link {
-	padding-right:40px;
+	padding-right:8px;
 }
 
 .big_link img {
-	width:115px;
+	max-width:115px;
+	max-height:50px;
 }
 
 
@@ -415,4 +416,3 @@ a.expand_button:hover {
 .wpu-user {
 	margin-bottom:5px;
 }
-
