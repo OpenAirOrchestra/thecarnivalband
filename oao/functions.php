@@ -22,12 +22,9 @@ function carnie_external_links_override() {
 			<li><a href="http://www.facebook.com/group.php?gid=5847232659">
 				<img src="<?php bloginfo('template_directory'); ?>/images/face_book.png" />
 				</a></li>
-			<li><a href="http://openairorchestra.blogspot.com/search/label/video">
+			<li><a href="http://www.thecarnivalband.com/carnivalband/home/video/">
 				<img src="<?php bloginfo('template_directory'); ?>/images/you_tube_2.png" />
 				</a></li>
-			<li><a href="http://openairorchestra.blogspot.com/">
-				<img src="<?php bloginfo('template_directory'); ?>/images/blogger_2.png" />
-</a></li>
 			<li><a href="https://twitter.com/TheCarnivalBand">
 				<img src="<?php bloginfo('template_directory'); ?>/images/twitter.png" />
 </a></li>
