@@ -1,0 +1,6 @@
+body {
+	background: 
+		url(images/background_short_sliced.png) left top no-repeat, 
+		url(images/background_footer.png) left bottom no-repeat, 
+		url(images/background_slice.png) left top repeat-y; 
+}
