@@ -129,6 +129,8 @@ function thecarnivalband_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+
+	wp_enqueue_style( 'thecarnivalband', get_template_directory_uri() . '/assets/css/thecarnivalband.css',false,'1.1','all');
 }
 add_action( 'wp_enqueue_scripts', 'thecarnivalband_scripts' );
 
