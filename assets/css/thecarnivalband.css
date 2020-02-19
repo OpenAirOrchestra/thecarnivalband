@@ -7,9 +7,8 @@ body {
 }
 
 article {
-	background: 
-		url(../images/content_bottom.png) center bottom no-repeat, 
-		url(../images/content_top.png) center top no-repeat, 
-		url(../images/content_middle.png) center top repeat-y; 
-	background-size: 100% auto;
+	border: black;
+	border-radius: 1em;
+	border-style: dashed;
+	background-color: rgba(255, 255, 255, 0.85);
 }
