@@ -131,7 +131,7 @@ function thecarnivalband_scripts() {
 	}
 
 	wp_enqueue_style( 'sidebar-content', get_template_directory_uri() . '/layouts/sidebar-content.css');
-	wp_enqueue_style( 'thecarnivalband', get_template_directory_uri() . '/assets/css/thecarnivalband.css',false,1.3,'all');
+	wp_enqueue_style( 'thecarnivalband', get_template_directory_uri() . '/assets/css/thecarnivalband.css');
 }
 add_action( 'wp_enqueue_scripts', 'thecarnivalband_scripts' );
 
