@@ -8,6 +8,7 @@ body {
 
 article {
 	border: black;
+	border-width: thin;
 	border-radius: 1em;
 	border-style: dashed;
 	background-color: rgba(255, 255, 255, 0.85);
