@@ -4,6 +4,7 @@ body {
 		url(../images/background_short_sliced.png) center top no-repeat, 
 		url(../images/background_slice.png) center top repeat-y; 
 	background-size: 100% auto;
+	padding: 2em;
 }
 
 article {
@@ -13,6 +14,8 @@ article {
 	border-style: dashed;
 	background-color: rgba(255, 255, 255, 0.85);
 	box-shadow: 0.5em 0.5em 0.5em 0.5em;
+	padding: 1em;
+	margin: 1em;
 }
 
 a:link {color:#C00F4B;}      /* unvisited link */
