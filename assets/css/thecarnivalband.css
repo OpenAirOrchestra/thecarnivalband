@@ -26,3 +26,8 @@ a:visited {color:#C00F4B;}  /* visited link */
 a:hover {color:#FF0008;}  /* mouse over link */
 a:active {color:#FF0008;}  /* selected link */
 
+ul.sub-menu {
+	background:white;
+	border: black;
+	border: thin solid black
+}
