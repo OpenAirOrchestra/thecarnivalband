@@ -7,7 +7,7 @@ body {
 	padding: 2em;
 }
 
-article {
+article, nav.main-navigation {
 	border: black;
 	border-width: thin;
 	border-radius: 1em;
@@ -15,6 +15,7 @@ article {
 	background-color: rgba(255, 255, 255, 0.85);
 	box-shadow: 0.5em 0.5em 0.5em 0.5em;
 	padding: 1em;
+	margin: 1em;
 }
 
 aside#secondary {
@@ -27,6 +28,15 @@ a:hover {color:#FF0008;}  /* mouse over link */
 a:active {color:#FF0008;}  /* selected link */
 
 /* Menus */
+
+nav.main-navigation {
+	width:auto;
+}
+
+nav.main-navigation li.menu-item {
+	margin-right: 0.75em;
+	margin-left: 0.75em;
+}
 
 ul.sub-menu {
 	background:white;
