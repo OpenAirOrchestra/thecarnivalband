@@ -38,7 +38,7 @@ nav.main-navigation li.menu-item {
 	margin-left: 0.75em;
 }
 
-ul.sub-menu {
+ul.sub-menu,  .main-navigation.toggled {
 	background:white;
 	border: black;
 	border: thin solid black

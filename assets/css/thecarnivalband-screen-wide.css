@@ -1,6 +1,6 @@
 @media screen and (min-width: 37.5em) {
 
-	nav.main-navigation {
+	nav.main-navigation, nav.main-navigation.toggled {
 		border: black;
 		border-width: thin;
 		border-radius: 1em;
