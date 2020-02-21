@@ -7,7 +7,7 @@ body {
 	padding: 2em;
 }
 
-article, nav.main-navigation {
+article {
 	border: black;
 	border-width: thin;
 	border-radius: 1em;

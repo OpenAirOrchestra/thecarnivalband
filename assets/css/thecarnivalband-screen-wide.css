@@ -1,0 +1,14 @@
+@media screen and (min-width: 37.5em) {
+
+	nav.main-navigation {
+		border: black;
+		border-width: thin;
+		border-radius: 1em;
+		border-style: dashed;
+		background-color: rgba(255, 255, 255, 0.85);
+		box-shadow: 0.5em 0.5em 0.5em 0.5em;
+		padding: 1em;
+		margin: 1em;
+	}
+
+}
