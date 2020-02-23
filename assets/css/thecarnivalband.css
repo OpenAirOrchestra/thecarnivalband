@@ -4,7 +4,6 @@ body {
 		url(../images/background_short_sliced.png) center top no-repeat, 
 		url(../images/background_slice.png) center top repeat-y; 
 	background-size: 100% auto;
-	padding: 2em;
 }
 
 article {
@@ -18,9 +17,10 @@ article {
 	margin: 1em;
 }
 
-aside#secondary {
-	padding: 1em;
+.post, .page {
+	margin: 1em;
 }
+
 
 a:link {color:#C00F4B;}      /* unvisited link */
 a:visited {color:#C00F4B;}  /* visited link */
