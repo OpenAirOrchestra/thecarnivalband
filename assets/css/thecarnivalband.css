@@ -21,7 +21,6 @@ article {
 	margin: 1em;
 }
 
-
 a:link {color:#C00F4B;}      /* unvisited link */
 a:visited {color:#C00F4B;}  /* visited link */
 a:hover {color:#FF0008;}  /* mouse over link */
@@ -38,10 +37,11 @@ nav.main-navigation li.menu-item {
 	margin-left: 0.75em;
 }
 
-ul.sub-menu,  .main-navigation.toggled {
+.main-navigation.toggled {
 	background:white;
 	border: black;
-	border: thin solid black
+	border: thin solid black;
+	width:100%;
 }
 
 li.menu-item:hover a:hover {

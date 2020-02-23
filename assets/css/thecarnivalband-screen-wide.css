@@ -24,4 +24,10 @@
 		left: -999em;
 		z-index: 99999;
 	}
+
+	ul.sub-menu,  .main-navigation.toggled {
+		background:white;
+		border: black;
+		border: thin solid black
+	}
 }

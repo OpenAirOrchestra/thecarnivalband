@@ -130,7 +130,6 @@ function thecarnivalband_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 
-	wp_enqueue_style( 'sidebar-content', get_template_directory_uri() . '/layouts/sidebar-content.css');
 	wp_enqueue_style( 'thecarnivalband', get_template_directory_uri() . '/assets/css/thecarnivalband.css');
 	wp_enqueue_style( 'thecarnivalband-screen-wide', get_template_directory_uri() . '/assets/css/thecarnivalband-screen-wide.css', array(), false, 'screen and (min-width: 37.5em)');
 }
