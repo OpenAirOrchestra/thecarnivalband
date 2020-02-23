@@ -6,6 +6,11 @@ body {
 	background-size: 100% auto;
 }
 
+header {
+	padding: 1em;
+	margin: 1em;
+}
+
 article {
 	border: black;
 	border-width: thin;
@@ -64,4 +69,29 @@ li.menu-item:hover a:hover {
 	position: static;
 	z-index: auto;
 }   
+
+button.menu-toggle {
+	background-color: rgba(255, 255, 255, 0.85);
+	border: thick solid black;
+	border-radius: 0;
+	font-size: 1.25em;
+	padding:0.25em;
+}
+
+button.menu-toggle { color:#C00F4B; }
+button.menu-toggle:hover {color:#FF0008;}  /* mouse over link */
+button.menu-toggle:active {color:#FF0008;}  /* selected link */
+
+button.menu-toggle::after {
+	content: " \2630";
+}
+
+.main-navigation.toggled button.menu-toggle {
+	color: white;
+	background: black;
+} 
+
+.main-navigation.toggled button.menu-toggle::after {
+	content: " \2169";
+}
 
