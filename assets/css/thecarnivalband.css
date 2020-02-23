@@ -44,10 +44,19 @@ ul.sub-menu,  .main-navigation.toggled {
 	border: thin solid black
 }
 
-li.menu-item:hover {
-	background:black;
+li.menu-item:hover a:hover {
+	text-decoration: underline;
 }
 
-li.menu-item:hover a:hover {
-	color:white
+.main-navigation li {
+	float: none;
+	position: static;
 }
+
+.main-navigation ul ul {
+	box-shadow: none;
+	float: none;
+	position: static;
+	z-index: auto;
+}   
+
