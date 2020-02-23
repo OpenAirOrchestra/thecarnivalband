@@ -12,7 +12,7 @@ article {
 	border-radius: 1em;
 	border-style: dashed;
 	background-color: rgba(255, 255, 255, 0.85);
-	box-shadow: 0.5em 0.5em 0.5em 0.5em;
+	box-shadow: 0.25em 0.25em 0.25em 0.25em rgba(0, 0, 0, 0.2);
 	padding: 1em;
 	margin: 1em;
 }
@@ -42,7 +42,7 @@ nav.main-navigation li.menu-item {
 }
 
 .main-navigation.toggled .menu-primary-menu-container {
-	box-shadow: 0.5em 0.5em 0.5em 0.5em;
+	box-shadow: 0.25em 0.25em 0.25em 0.25em rgba(0, 0, 0, 0.2);
 	background-color: rgba(255, 255, 255, 0.85);
 	border: black;
 	border: thin solid black;
