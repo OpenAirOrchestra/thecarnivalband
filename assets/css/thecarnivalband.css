@@ -38,7 +38,12 @@ nav.main-navigation li.menu-item {
 }
 
 .main-navigation.toggled {
-	background:white;
+	width:100%;
+}
+
+.main-navigation.toggled .menu-primary-menu-container {
+	box-shadow: 0.5em 0.5em 0.5em 0.5em;
+	background-color: rgba(255, 255, 255, 0.85);
 	border: black;
 	border: thin solid black;
 	width:100%;
