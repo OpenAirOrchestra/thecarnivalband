@@ -1,5 +1,9 @@
 @media screen and (min-width: 37.5em) {
 
+	img.custom-logo {
+		width: auto;
+	}
+
 	nav.main-navigation, nav.main-navigation.toggled {
 		border: black;
 		border-width: thin;
