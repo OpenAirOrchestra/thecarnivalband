@@ -4,11 +4,7 @@ body {
 		url(../images/background_short_sliced.png) center top no-repeat, 
 		url(../images/background_slice.png) center top repeat-y; 
 	background-size: 100% auto;
-}
-
-header {
-	padding: 1em;
-	margin: 1em;
+	padding: 2em;
 }
 
 article {
@@ -22,7 +18,7 @@ article {
 	margin: 1em;
 }
 
-.post, .page {
+article.post, div.page div.comments-area {
 	margin: 1em;
 }
 
