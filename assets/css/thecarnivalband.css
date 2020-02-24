@@ -103,6 +103,7 @@ button.menu-toggle::after {
 	background-position: left;
 	background-size: contain;
 	width:3em;
+	height:1.75em;
 }
 
 .greenhorn.menu-item a {
@@ -115,6 +116,7 @@ button.menu-toggle::after {
 	background-position: left;
 	background-size: contain;
 	width:3em;
+	height:1.75em;
 }
 
 .twitter.menu-item a {
@@ -127,6 +129,7 @@ button.menu-toggle::after {
 	background-position: left;
 	background-size: contain;
 	width:4em;
+	height:1.75em;
 }
 
 .youtube.menu-item a {
@@ -139,6 +142,7 @@ button.menu-toggle::after {
 	background-position: left;
 	background-size: contain;
 	width:3em;
+	height:1.75em;
 }
 
 .facebook.menu-item a {
@@ -151,6 +155,7 @@ button.menu-toggle::after {
 	background-position: left;
 	background-size: contain;
 	width:3em;
+	height:1.75em;
 }
 
 .flickr.menu-item a {
@@ -163,7 +168,7 @@ button.menu-toggle::after {
 	background-position: left;
 	background-size: contain;
 	width:3em;
-	height:1.5em;
+	height:1.75em;
 }
 
 .openairorchestra.menu-item a {
