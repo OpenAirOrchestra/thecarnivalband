@@ -8,13 +8,6 @@
 		margin:1.5em;
 	}
 
-	article, article.gig {
-		padding:1em;
-		margin-top:0;
-		margin-left:0;
-		margin-right:0;
-		margin-bottom: 1.5em;
-	}
 
 	nav.main-navigation, nav.main-navigation.toggled {
 		border: black;
@@ -27,7 +20,6 @@
 		padding: 1em;
 	}
 
-
 	.main-navigation.toggled .menu-primary-menu-container {
 		box-shadow: none;
 		border: none;
@@ -37,6 +29,12 @@
 	.main-navigation li {
         	float: left;
 		position: relative;
+		margin-right: 2em;
+	}
+
+	.main-navigation.toggled ul {
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	.main-navigation ul ul {

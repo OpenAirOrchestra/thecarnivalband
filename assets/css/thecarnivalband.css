@@ -6,6 +6,10 @@ body {
 	background-size: 100% auto;
 }
 
+header, footer, div#content {
+	margin:0.5em;
+}
+
 article {
 	border: black;
 	border-width: thin;
@@ -13,6 +17,14 @@ article {
 	border-style: dashed;
 	background-color: rgba(255, 255, 255, 0.85);
 	box-shadow: 0.25em 0.25em 0.25em 0.25em rgba(0, 0, 0, 0.2);
+}
+
+article, article.gig {
+	padding:1em;
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom: 1.5em;
 }
 
 a:link {color:#C00F4B;}      /* unvisited link */
@@ -30,9 +42,6 @@ nav.main-navigation {
 	width:auto;
 }
 
-nav.main-navigation li.menu-item {
-	margin-right: 0.75em;
-}
 
 .main-navigation.toggled {
 	width:100%;
@@ -53,6 +62,11 @@ li.menu-item:hover a:hover {
 .main-navigation li {
 	float: none;
 	position: static;
+}
+
+.main-navigation.toggled ul {
+	margin-left: 1em;
+	margin-right: 1em;
 }
 
 .main-navigation ul ul {
