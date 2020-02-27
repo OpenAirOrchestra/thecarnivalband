@@ -97,7 +97,7 @@ button.menu-toggle::after {
 } 
 
 .main-navigation.toggled button.menu-toggle::after {
-	content: " \2169";
+	content: " \2715";
 }
 
 /* Image menu items */
