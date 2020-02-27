@@ -4,7 +4,6 @@ body {
 		url(../images/background_short_sliced.png) center top no-repeat, 
 		url(../images/background_slice.png) center top repeat-y; 
 	background-size: 100% auto;
-	padding: 2em;
 }
 
 article {
@@ -14,12 +13,6 @@ article {
 	border-style: dashed;
 	background-color: rgba(255, 255, 255, 0.85);
 	box-shadow: 0.25em 0.25em 0.25em 0.25em rgba(0, 0, 0, 0.2);
-	padding: 1em;
-	margin: 1em;
-}
-
-article.post, article.page, div.page div.comments-area {
-	margin: 1em;
 }
 
 a:link {color:#C00F4B;}      /* unvisited link */
@@ -39,7 +32,6 @@ nav.main-navigation {
 
 nav.main-navigation li.menu-item {
 	margin-right: 0.75em;
-	margin-left: 0.75em;
 }
 
 .main-navigation.toggled {
@@ -75,7 +67,6 @@ button.menu-toggle {
 	border: thick solid black;
 	border-radius: 0;
 	font-size: 1.25em;
-	padding:0.25em;
 }
 
 button.menu-toggle { color:#C00F4B; }
