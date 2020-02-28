@@ -10,6 +10,18 @@ header, footer, div#content {
 	margin:0.5em;
 }
 
+.entry-meta .byline {
+	display: none;
+}
+
+article.sticky header .entry-meta {
+	display: none;
+}
+
+.entry-footer .cat-links, .entry-footer .comments-link {
+	display: none;
+}
+
 article {
 	border: black;
 	border-width: thin;
