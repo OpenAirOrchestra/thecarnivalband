@@ -180,3 +180,16 @@ button.menu-toggle::after {
 	color: rgba(255, 255, 255, 0);
 }
 
+.carnivalband.menu-item {
+	background-image: url(../images/carnival_band_logo.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+	width:3em;
+	height:1.75em;
+}
+
+.carnivalband.menu-item a {
+	color: rgba(255, 255, 255, 0);
+}
+
