@@ -191,6 +191,19 @@ button.menu-toggle::after {
 .instagram.menu-item a {
 	color: rgba(255, 255, 255, 0);
 }
+
+.soundcloud.menu-item {
+	background-image: url(../images/soundcloud.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+	width:3em;
+	height:1.75em;
+}
+
+.soundcloud.menu-item a {
+	color: rgba(255, 255, 255, 0);
+}
  
 .openairorchestra.menu-item {
 	background-image: url(../images/open_air_society_logo.png);
