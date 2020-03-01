@@ -115,7 +115,7 @@ button.menu-toggle::after {
 /* Image menu items */
 
 .greenhorn.menu-item {
-	background-image: url(../images/greenhorn_project_logo_small.png);
+	background-image: url(../images/greenhorn_project_logo.png);
 	background-repeat: no-repeat;
 	background-position: left;
 	background-size: contain;
