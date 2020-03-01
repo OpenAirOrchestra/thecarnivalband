@@ -178,6 +178,19 @@ button.menu-toggle::after {
 .flickr.menu-item a {
 	color: rgba(255, 255, 255, 0);
 }
+
+.instagram.menu-item {
+	background-image: url(../images/instagram.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+	width:3em;
+	height:1.75em;
+}
+
+.instagram.menu-item a {
+	color: rgba(255, 255, 255, 0);
+}
  
 .openairorchestra.menu-item {
 	background-image: url(../images/open_air_society_logo.png);
