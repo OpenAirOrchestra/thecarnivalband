@@ -204,6 +204,19 @@ button.menu-toggle::after {
 .soundcloud.menu-item a {
 	color: rgba(255, 255, 255, 0);
 }
+
+.tumblr.menu-item {
+	background-image: url(../images/tumblr.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+	width:3em;
+	height:1.75em;
+}
+
+.tumblr.menu-item a {
+	color: rgba(255, 255, 255, 0);
+}
  
 .openairorchestra.menu-item {
 	background-image: url(../images/open_air_society_logo.png);
