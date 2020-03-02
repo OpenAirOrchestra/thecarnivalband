@@ -74,8 +74,12 @@
 	}
 
 	.youtube.has-logo.menu-item {
-		background-image: url(../images/youtube.png);
 		padding-left: 0;
 		width: 4.5em;
+	}
+
+	.soundcloud.has-logo.menu-item {
+		padding-left: 0;
+		width: 3em;
 	}
 }
