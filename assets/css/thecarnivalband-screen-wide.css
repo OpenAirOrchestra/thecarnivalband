@@ -51,4 +51,31 @@
 		border: black;
 		border: thin solid black
 	}
+
+	.has-logo.menu-item a {
+		color: rgba(255, 255, 255, 0);
+	}
+
+	.has-logo.menu-item {
+		background-size: contain; 
+		padding-left: 0;
+		height:1.75em;
+		width: 1.75em;
+	}
+
+	.openairorchestra.has-logo.menu-item {
+		padding-left:0;
+		width:4.5em;
+	}
+
+	.carnivalband.has-logo.menu-item {
+		padding-left: 0;
+		width: 4.5em;
+	}
+
+	.youtube.has-logo.menu-item {
+		background-image: url(../images/youtube.png);
+		padding-left: 0;
+		width: 4.5em;
+	}
 }

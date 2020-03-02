@@ -116,131 +116,51 @@ button.menu-toggle::after {
 
 .greenhorn.menu-item {
 	background-image: url(../images/greenhorn_project_logo.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: contain;
-	width:3em;
-	height:1.75em;
-}
-
-.greenhorn.menu-item a {
-	color: rgba(255, 255, 255, 0);
 }
 
 .twitter.menu-item {
 	background-image: url(../images/twitter.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: contain;
-	width:3em;
-	height:1.75em;
-}
-
-.twitter.menu-item a {
-	color: rgba(255, 255, 255, 0);
-}
-
-.youtube.menu-item {
-	background-image: url(../images/youtube.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: contain;
-	width:4em;
-	height:1.75em;
-}
-
-.youtube.menu-item a {
-	color: rgba(255, 255, 255, 0);
 }
 
 .facebook.menu-item {
 	background-image: url(../images/facebook.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: contain;
-	width:3em;
-	height:1.75em;
-}
-
-.facebook.menu-item a {
-	color: rgba(255, 255, 255, 0);
 }
 
 .flickr.menu-item {
 	background-image: url(../images/flickr.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: contain;
-	width:3em;
-	height:1.75em;
-}
-
-.flickr.menu-item a {
-	color: rgba(255, 255, 255, 0);
 }
 
 .instagram.menu-item {
 	background-image: url(../images/instagram.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: contain;
-	width:3em;
-	height:1.75em;
-}
-
-.instagram.menu-item a {
-	color: rgba(255, 255, 255, 0);
 }
 
 .soundcloud.menu-item {
 	background-image: url(../images/soundcloud.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: contain;
-	width:3em;
-	height:1.75em;
-}
-
-.soundcloud.menu-item a {
-	color: rgba(255, 255, 255, 0);
 }
 
 .tumblr.menu-item {
 	background-image: url(../images/tumblr.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: contain;
-	width:3em;
-	height:1.75em;
 }
 
-.tumblr.menu-item a {
-	color: rgba(255, 255, 255, 0);
-}
- 
-.openairorchestra.menu-item {
+.openairorchestra.has-logo.menu-item {
 	background-image: url(../images/open_air_society_logo.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: contain;
-	width:3em;
-	height:1.75em;
+	padding-left:4.5em;
 }
 
-.openairorchestra.menu-item a {
-	color: rgba(255, 255, 255, 0);
-}
-
-.carnivalband.menu-item {
+.carnivalband.has-logo.menu-item {
 	background-image: url(../images/carnival_band_logo.png);
+	padding-left:4.5em;
+}
+
+.youtube.has-logo.menu-item {
+	background-image: url(../images/youtube.png);
+	padding-left:4.5em;
+}
+
+.has-logo.menu-item {
 	background-repeat: no-repeat;
 	background-position: left;
-	background-size: contain;
-	width:3em;
+	background-size: auto 1.6em;
+	padding-left:3em;
 	height:1.75em;
 }
-
-.carnivalband.menu-item a {
-	color: rgba(255, 255, 255, 0);
-}
-
